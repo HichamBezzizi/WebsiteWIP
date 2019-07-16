@@ -108,7 +108,6 @@ body {
     margin-right: 200px;
     margin-top: 50px;
     transition: transform .2s;
-    z-index:-9999;
 }
 .aboutPic:hover{
     transform: scale(1.1);
@@ -128,7 +127,6 @@ body {
     margin-left: 150px;
     margin-top: 150px;
     transition: transform .2s;
-    z-index:-9999;
 
 }
 #album img:hover{
