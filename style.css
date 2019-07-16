@@ -187,6 +187,11 @@ body {
 #gallery .images{
     margin-left: 50px;
     margin-top: 20px;
+    transition: transform .2s;
+}
+
+#gallery .images:hover{
+    transform: scale(1.1);
 }
 
 #mashImages{
