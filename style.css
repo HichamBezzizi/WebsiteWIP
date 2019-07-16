@@ -19,6 +19,8 @@ body {
     pointer-events: none;
 }
 
+
+
 #intro img{
 
     position: relative;
@@ -45,6 +47,7 @@ body {
     transform: translate(-50%, -50%);
     text-shadow: 5px 5px #c11a68;
     color: #009fb0;
+    z-index:-9999;
 }
 
 #top{
@@ -105,6 +108,7 @@ body {
     margin-right: 200px;
     margin-top: 50px;
     transition: transform .2s;
+    z-index:-9999;
 }
 .aboutPic:hover{
     transform: scale(1.1);
@@ -124,6 +128,7 @@ body {
     margin-left: 150px;
     margin-top: 150px;
     transition: transform .2s;
+    z-index:-9999;
 
 }
 #album img:hover{
