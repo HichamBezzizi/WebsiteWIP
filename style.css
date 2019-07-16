@@ -3,7 +3,9 @@ html{
 }
 
 
+
 body {
+    font-family: 'Notable', sans-serif;
     padding: 0px;
     margin: 0px;
     color: white;
@@ -22,6 +24,7 @@ body {
     width: 100vw;
     height: auto;
     z-index: -9999;
+    height: auto;
     
 }
 
@@ -34,7 +37,6 @@ body {
 }
 
 .introText{
-    font-family: 'Notable', sans-serif;
     font-size: 100px;
     position: absolute;
     top: 50%;
@@ -42,8 +44,6 @@ body {
     transform: translate(-50%, -50%);
     text-shadow: 5px 5px #c11a68;
     color: #009fb0;
-    /* color:#c11a68;
-    text-shadow: 5px 5px #009fb0; */
 
 }
 
@@ -53,6 +53,7 @@ body {
 }
 
 #navBar{
+    position: fixed;
     display: flex;
     padding-top: 5px;
 }
@@ -60,6 +61,12 @@ body {
 #navBar li{
     display: inline;
     padding: 10px;
+}
+
+#navBar:hover{
+    
+    color:white;
+    text-shadow: 3px 3px #009eb0;
 }
 
 #navBar li a{
@@ -76,9 +83,6 @@ body {
     
     color:white;
     text-shadow: 3px 3px #009eb0;
-
-
-
 }
 
 #navBar img{
@@ -104,6 +108,7 @@ body {
 #album{
     background-color:#009fb0;
     height: 100vh;
+    margin-bottom: -20px;
 }
 
 #album img{
@@ -135,17 +140,37 @@ body {
 
 .aboutContent{
     
+    padding: 30px;;
+}
+
+
+
+.aboutText{
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+}
+
+.aboutTextContent{
+    padding-left: 150px;
+
+}
+
+.albumContent{
     padding: 30px;
 }
 
-.aboutTitle{
-    font-family: 'Notable', sans-serif;
+.albumTextContent{
+    float: right;
+    width:50%;
 }
 
-.aboutText{
-    font-family: 'Notable', sans-serif;
-    font-size: 20px;
+.albumText{
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    padding-top:50px;
+    padding-right: 40px;
 }
+
 
 
 #gallery .images{
@@ -154,12 +179,21 @@ body {
 }
 
 #mashImages{
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
-#btn{
+#icon{
 
     position: fixed;
     bottom: 20px;
     left: 20px; 
+    font-size: 30px;
+    padding-left: 50%;
+    text-shadow: 5px 5px 5px rgb(17, 16, 16);
+}
+
+.galleryTitle{
+    text-align: center;
+    padding-top: 20px;
+    height: auto;
 }
