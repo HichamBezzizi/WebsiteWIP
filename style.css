@@ -63,6 +63,7 @@ body {
     padding: 10px;
 }
 
+
 #navBar:hover{
     
     color:white;
@@ -101,8 +102,12 @@ body {
     width: auto;
     box-shadow: 10px 10px 5px rgb(17, 16, 16);
     float: right;
-    margin-right: 150px;
-    margin-top: 100px;
+    margin-right: 200px;
+    margin-top: 50px;
+    transition: transform .2s;
+}
+.aboutPic:hover{
+    transform: scale(1.1);
 }
 
 #album{
@@ -117,9 +122,14 @@ body {
     box-shadow: 10px 10px 5px rgb(17, 16, 16);
     float: left;
     margin-left: 150px;
-    margin-top: 100px;
+    margin-top: 150px;
+    transition: transform .2s;
 
 }
+#album img:hover{
+    transform: scale(1.1);
+}
+
 
 #gallery{
     height: 100vh;
@@ -146,6 +156,7 @@ body {
 
 
 .aboutText{
+    padding-top: 35px;
     font-family: 'Heebo', sans-serif;
     font-size: 16px;
 }
@@ -167,7 +178,7 @@ body {
 .albumText{
     font-family: 'Heebo', sans-serif;
     font-size: 16px;
-    padding-top:50px;
+    padding-top:35px;
     padding-right: 40px;
 }
 
@@ -188,12 +199,16 @@ body {
     bottom: 20px;
     left: 20px; 
     font-size: 30px;
-    padding-left: 50%;
     text-shadow: 5px 5px 5px rgb(17, 16, 16);
+}
+
+#icon:hover{
+    text-shadow: 2px 2px #c11a68;
+    color: white;;
 }
 
 .galleryTitle{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 60px;
     height: auto;
 }
