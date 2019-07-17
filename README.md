@@ -1,6 +1,6 @@
  # WebsiteWIP #
 
-*To-do:
+* To-do:
     * Add JS functionality
     * Make responsive
     * Add a form or something similar
