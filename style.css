@@ -95,7 +95,6 @@ body {
 
 #about{
     margin-top: 200px;
-    margin-bottom: -20px;
     background-color: #c11a68;
     height: 100vh;
 }
@@ -151,12 +150,9 @@ body {
     padding-left:20px;
 }
 
-.aboutContent{
-    
+.aboutContent{ 
     padding: 30px;;
 }
-
-
 
 .aboutText{
     padding-top: 35px;
@@ -226,6 +222,8 @@ body {
     padding-bottom: 5px;
     width: 108px;
 }
+
+
 
 
 
