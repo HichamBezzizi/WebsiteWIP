@@ -6,5 +6,8 @@
     * Add a form or something similar.
     * Change or add styling.
 
+- - - -
 
-url = https://hichambezzizi.github.io/WebsiteWIP/index.html
+## You can check out my current work here: ##
+
+    https://hichambezzizi.github.io/WebsiteWIP/index.html
