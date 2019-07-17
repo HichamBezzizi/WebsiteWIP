@@ -202,9 +202,10 @@ body {
 
     position: fixed;
     bottom: 20px;
-    left: 20px; 
+    left: 50%; 
     font-size: 30px;
     text-shadow: 5px 5px 5px rgb(17, 16, 16);
+
 }
 
 #icon:hover{
