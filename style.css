@@ -108,6 +108,8 @@ body {
     margin-top: 50px;
     transition: transform .2s;
 }
+
+
 .aboutPic:hover{
     transform: scale(1.1);
 }
@@ -205,6 +207,7 @@ body {
     left: 50%; 
     font-size: 30px;
     text-shadow: 5px 5px 5px rgb(17, 16, 16);
+    cursor: pointer;
 
 }
 
@@ -224,6 +227,11 @@ body {
     padding-bottom: 5px;
     width: 108px;
 }
+
+
+
+
+
 
 
 
