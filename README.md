@@ -10,4 +10,4 @@
 
 ## You can check out my current work here: ##
 
-    https://hichambezzizi.github.io/WebsiteWIP/index.html
+https://hichambezzizi.github.io/WebsiteWIP/
