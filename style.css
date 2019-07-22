@@ -232,28 +232,31 @@ body {
 
 
 
-  @media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
 
     body{
         background-color: green;
     }
 
-    img {
-        max-width:100%;
-        height:auto;
+    .images {
+        height: auto;
     }
 
     .introText{
         font-size: 10vw;
     }
 
-    .intro, .about, .album, .gallery {
+    /* .intro, .about, .album, .gallery {
         width: 100%;
-    }
+    } */
 
-    .aboutText, .albumText{
+    .aboutText, .albumText, #navBar li a{
         font-size:2vw;
     }
+
+    
+
+
   
     
   }
