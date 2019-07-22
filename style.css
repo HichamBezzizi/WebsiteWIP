@@ -254,7 +254,18 @@ body {
         font-size:2vw;
     }
 
-    
+    .mashLogo{
+
+        position: fixed;
+        top: 20px;
+
+        
+
+    }
+
+    #navBar li a {
+        display: none;
+    }
 
 
   
