@@ -267,23 +267,37 @@ body {
     #album img{
         height: 100%;
         width: 100%;
-        margin: 0;
         padding: 0;
+        margin: 0;
     }
 
     #about img {
 
-        height: 100%;
-        width: 100%;
-        margin: 0;
+        height: 85%;
+        width: 85%;
+        margin: 85px 0 0 0;
         padding: 0;
 
 
     }
 
-    #gallery img {
-
+    #intro{
+        height: 10vh;
     }
+
+    #gallery{
+        height: 280vh;
+    }
+
+
+    .aboutTextContent {
+        padding: 20px;
+    }
+
+    .albumTextContent {
+        margin-right: 100px;
+    }
+
 
 
 
