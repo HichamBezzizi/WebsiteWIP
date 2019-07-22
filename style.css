@@ -367,13 +367,6 @@ body {
 
     }
 
-
-
-
-}
-
-@media (min-width: 375px) and (max-width: 667px) {
-    
     #intro{
 
         height: 7vh;
@@ -385,7 +378,12 @@ body {
         height: 260vh;
 
     }
+
+
+
+
 }
+
 
 
 
