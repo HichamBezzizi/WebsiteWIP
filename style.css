@@ -297,14 +297,21 @@ body {
     .albumTextContent {
         margin-right: 100px;
     }
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
 
 
 
+    #intro{
+        height: 7vh;
+    }
 
 
-  
-    
-  }
+    #gallery{
+        height: 310vh;
+    }
+}
 
 
 
