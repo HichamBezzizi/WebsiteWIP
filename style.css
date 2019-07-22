@@ -1,8 +1,10 @@
+* {
+    box-sizing: border-box;
+  } 
+
 html{
     scroll-behavior: smooth;
 }
-
-
 
 body {
     font-family: 'Notable', sans-serif;
@@ -227,6 +229,35 @@ body {
     padding-bottom: 5px;
     width: 108px;
 }
+
+
+
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    body{
+        background-color: green;
+    }
+
+    img {
+        max-width:100%;
+        height:auto;
+    }
+
+    .introText{
+        font-size: 10vw;
+    }
+
+    .intro, .about, .album, .gallery {
+        width: 100%;
+    }
+
+    .aboutText, .albumText{
+        font-size:2vw;
+    }
+  
+    
+  }
+
 
 
 
