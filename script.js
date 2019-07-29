@@ -1,127 +1,55 @@
 const icon = document.querySelector("#icon");
 
 icon.addEventListener('click', scrollFunction);
-function scrollFunction(){
+
+function scrollFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 };
 
 window.onload = function () {
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
 };
 
 
-// // window.onscroll = function() {
-// //     onScrollDown();
-// //     onScrollUp();
+// window.onscroll = function() {
+//     onScrollDown();
+//     onScrollUp();
 
-// // };
+// };
 
-// // function onScrollDown() {
-// //     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-// //       document.querySelector("#icon").style.display = "block";
-// //     } else {
-// //       document.querySelector("#icon").style.color = "white";
-// //     }
-// //   };
+// function onScrollDown() {
+//     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+//       document.querySelector("#icon").style.display = "block";
+//     } else {
+//       document.querySelector("#icon").style.color = "white";
+//     }
+//   };
 
-// // function onScrollUp(){
+// function onScrollUp(){
 
-// //     if (document.body.scrollTop == 0 || document.documentElement.scrollTop == 0 ) {
-// //         document.querySelector("#icon").style.display = "block";
-// //     }
+//     if (document.body.scrollTop == 0 || document.documentElement.scrollTop == 0 ) {
+//         document.querySelector("#icon").style.display = "block";
+//     }
 
-// // };
+// };
 
-// // window.addEventListener('scroll', checkPosition);
+// window.addEventListener('scroll', checkPosition);
 
-// // let scrollPos = 0;
+// let scrollPos = 0;
 
-// // function checkPosition(){
+// function checkPosition(){
 
-// //     let windowY = window.scrollY;
+//     let windowY = window.scrollY;
 
-// //     if( windowY < scrollPos ){
+//     if( windowY < scrollPos ){
 
-// //         icon.style.display = "none";
+//         icon.style.display = "none";
 
-// //     } else{
+//     } else{
 
-// //         icon.style.display = "block";
+//         icon.style.display = "block";
 
-// //     }
+//     }
 
-// // };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// };
