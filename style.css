@@ -2,9 +2,9 @@
 
     box-sizing: border-box;
 
-  } 
+}
 
-html{
+html {
 
     scroll-behavior: smooth;
 
@@ -20,7 +20,7 @@ body {
 
 }
 
-#intro{
+#intro {
 
     color: black;
     height: 700px;
@@ -30,17 +30,17 @@ body {
 
 
 
-#intro img{
+#intro img {
 
     position: relative;
     width: 100vw;
     height: auto;
     z-index: -9999;
     height: auto;
-    
+
 }
 
-.container{
+.container {
 
     position: relative;
     text-align: center;
@@ -48,7 +48,7 @@ body {
 
 }
 
-.introText{
+.introText {
 
     font-size: 100px;
     position: absolute;
@@ -57,16 +57,16 @@ body {
     transform: translate(-50%, -50%);
     text-shadow: 5px 5px #c11a68;
     color: #009fb0;
-    z-index:-9999;
+    z-index: -9999;
 }
 
-#top{
+#top {
 
-    height:65px;
+    height: 65px;
     background-color: #c11a68;
 }
 
-#navBar{
+#navBar {
 
     position: fixed;
     display: flex;
@@ -74,7 +74,7 @@ body {
 
 }
 
-#navBar li{
+#navBar li {
 
     display: inline;
     padding: 10px;
@@ -82,37 +82,37 @@ body {
 }
 
 
-#navBar:hover{
-    
-    color:white;
+#navBar:hover {
+
+    color: white;
     text-shadow: 3px 3px #009eb0;
-    
+
 }
 
-#navBar li a{
+#navBar li a {
 
     font-family: 'Notable', sans-serif;
     font-size: 14px;
-    color:#49bfcc;
+    color: #49bfcc;
     text-decoration: none;
     text-shadow: 3px 3px #38232d;
 
 }
 
-#navBar ul li a:hover{
-    
-    color:white;
+#navBar ul li a:hover {
+
+    color: white;
     text-shadow: 3px 3px #009eb0;
 
 }
 
-#navBar img{
+#navBar img {
 
     width: 100px;
 
 }
 
-#about{
+#about {
 
     margin-top: 200px;
     background-color: #c11a68;
@@ -120,7 +120,7 @@ body {
 
 }
 
-#about img{
+#about img {
 
     height: 400px;
     width: auto;
@@ -132,21 +132,21 @@ body {
 
 }
 
-.aboutPic:hover{
+.aboutPic:hover {
 
     transform: scale(1.1);
 
 }
 
-#album{
+#album {
 
-    background-color:#009fb0;
+    background-color: #009fb0;
     height: 100vh;
     margin-bottom: -20px;
 
 }
 
-#album img{
+#album img {
 
     height: 400px;
     width: auto;
@@ -158,42 +158,45 @@ body {
 
 }
 
-#album img:hover{
+#album img:hover {
 
     transform: scale(1.1);
 
 }
 
-#gallery{
+#gallery {
 
     height: 100vh;
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #bdc3c7;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #bdc3c7);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2c3e50, #bdc3c7);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-bottom: -22px;
 
 }
 
-#gallery img{
+#gallery img {
 
     width: 300px;
     box-shadow: 10px 10px 5px rgb(17, 16, 16);
 
 }
 
-.mashLogo{
+.mashLogo {
 
-    padding-left:20px;
+    padding-left: 20px;
 
 }
 
-.aboutContent{ 
+.aboutContent {
 
     padding: 30px;
 
 }
 
-.aboutText{
+.aboutText {
 
     padding-top: 35px;
     font-family: 'Oswald', sans-serif;
@@ -201,34 +204,34 @@ body {
 
 }
 
-.aboutTextContent{
+.aboutTextContent {
     padding-left: 150px;
-    
+
 }
 
-.albumContent{
+.albumContent {
 
     padding: 30px;
 
 }
 
-.albumTextContent{
+.albumTextContent {
 
     float: right;
-    width:50%;
+    width: 50%;
 
 }
 
-.albumText{
+.albumText {
 
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
-    padding-top:35px;
+    padding-top: 35px;
     padding-right: 40px;
 
 }
 
-#gallery .images{
+#gallery .images {
 
     margin-left: 50px;
     margin-top: 20px;
@@ -236,37 +239,37 @@ body {
 
 }
 
-#gallery .images:hover{
+#gallery .images:hover {
 
     transform: scale(1.1);
 
 }
 
-#mashImages{
+#mashImages {
 
     margin-top: 120px;
 
 }
 
-#icon{
+#icon {
 
     position: fixed;
     bottom: 20px;
-    left: 50%; 
+    left: 50%;
     font-size: 30px;
     text-shadow: 5px 5px 5px rgb(17, 16, 16);
     cursor: pointer;
 
 }
 
-#icon:hover{
+#icon:hover {
 
     text-shadow: 5px 5px 5px #c11a68;
     color: white;
 
 }
 
-.galleryTitle{
+.galleryTitle {
 
     text-align: center;
     padding-top: 60px;
@@ -274,7 +277,7 @@ body {
 
 }
 
-.aboutTitle{
+.aboutTitle {
 
     border-bottom: 1px solid white;
     padding-bottom: 5px;
@@ -284,19 +287,19 @@ body {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
-    #mashImages{
+    #mashImages {
 
         margin-top: 50px;
 
     }
-    
-    .introText{
+
+    .introText {
 
         font-size: 10vw;
 
     }
 
-    .aboutText{
+    .aboutText {
 
         /* font-size:3.5vw; */
         padding: 0;
@@ -304,13 +307,13 @@ body {
 
     }
 
-    .albumText{
+    .albumText {
 
         padding-right: 0;
         padding-top: 0;
     }
 
-    .mashLogo{
+    .mashLogo {
 
         position: fixed;
         top: 20px;
@@ -323,7 +326,7 @@ body {
 
     }
 
-    #album img{
+    #album img {
 
         /* display: none; */
         height: 100%;
@@ -342,50 +345,34 @@ body {
 
     }
 
-    #intro{
+    #intro {
 
         height: 10vh;
 
     }
-    .aboutTextContent{
+
+    .aboutTextContent {
 
         padding: 20px;
 
     }
 
-    .albumTextContent{
+    .albumTextContent {
 
         /* margin-right: 30px; */
         width: 100%;
 
     }
 
-    #intro{
+    #intro {
 
         height: 7vh;
 
     }
 
-    #gallery{
+    #gallery {
 
         height: 260vh;
 
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
