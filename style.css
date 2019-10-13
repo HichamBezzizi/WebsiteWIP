@@ -285,6 +285,54 @@ body {
 
 }
 
+.ashabiVideo{
+    display: flex;
+    justify-content: center;
+}
+.contact ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 1em;
+}
+.contact li{
+    display: flex;
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.contact li i {
+    color: #49bfcc;
+    text-decoration: none;
+}
+
+.contact li :hover{
+    text-shadow: 3px 3px #38232d;
+}
+
+.madeBy{
+    position: absolute;
+    left: 35%;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.videoDesc{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+#video{
+    background-color: #4EA0B0;
+    padding-bottom: 20px;
+}
+#bottom{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    background-color: #C34268;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 480px) {
 
     #mashImages {
