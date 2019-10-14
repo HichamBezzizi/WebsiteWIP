@@ -2,7 +2,9 @@
 
 ![Website](./img/mashrouleila.png)
 
-This is a Pokédex that I had to make with a co-learner during my education at BeCode.
+A website that I've built from scratch which I am currently still working on. The website showcases Mashrou' Leila, a four member indie rock bank from Lebanon.
+
+[This website inspired me to make one of my own](http://mashrouleila.com/?page_id=57)
 
 [Website Mashrou' Leila](https://hichambezzizi.github.io/WebsiteWIP/)
 
