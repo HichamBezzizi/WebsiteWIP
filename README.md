@@ -1,6 +1,6 @@
-# Ajax Pokédex
+# Mashrou' Leila
 
-![PokéDex](./img/mashrouleila.png)
+![Website](./img/mashrouleila.png)
 
 This is a Pokédex that I had to make with a co-learner during my education at BeCode.
 
